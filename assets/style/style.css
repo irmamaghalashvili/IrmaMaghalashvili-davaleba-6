@@ -1,0 +1,235 @@
+.header {
+  padding: 24px 32px;
+  height: 96px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-ul {
+  height: 20px;
+  display: flex;
+}
+.nav-li {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 19.36px;
+  font-size: 16px;
+  text-align: right;
+  margin-right: 44px;
+}
+.nav-li a {
+  color: rgba(0, 0, 0, 1);
+}
+.act-btn {
+  width: 100px;
+  height: 48px;
+  padding: 12px 24px;
+  color: rgba(243, 243, 243, 1);
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 32px;
+}
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+}
+.headline h1 {
+  width: 630px;
+  height: 120px;
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.headline p {
+  width: 630px;
+  height: 56px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.headline-div {
+  height: 48px;
+  padding: 0 70px;
+  margin-bottom: 68px;
+}
+.headline-div span {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 20px;
+  color: rgba(0, 0, 0, 1);
+}
+.bg-image {
+  width: 960px;
+  /* height: 450px; */
+  border-radius: 12px;
+  margin-bottom: 32px;
+}
+.futures {
+  height: 254px;
+  padding: 39px 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(243, 243, 243, 1);
+}
+.futures-div {
+  width: 279.33px;
+  height: 176px;
+}
+.black-dot {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 1);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.futures-div span {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+.futures-div p {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 16px;
+}
+.black-section {
+  background-color: rgba(0, 0, 0, 1);
+  height: 895px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.black-section-div {
+  height: 185px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.black-section-div h5 {
+  width: 415px;
+  height: 96px;
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 1);
+}
+.black-section-div p {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: rgba(255, 255, 255, 1);
+}
+.act-btn-white {
+  width: 100px;
+  height: 48px;
+  padding: 12px 24px;
+  background-color: rgba(243, 243, 243, 1);
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1);
+  border-radius: 32px;
+  border: 0;
+}
+.cta {
+  height: 588px;
+  padding: 192px 450px;
+  background: url(../images/cta.png) center / cover no-repeat,
+    linear-gradient(80.53deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.cta h5 {
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 16px;
+  align-items: center;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.cta h2 {
+  font-family: Inter;
+  font-weight: 900;
+  line-height: 48px;
+  font-size: 40px;
+  align-items: center;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 309px;
+  padding: 45px 32px;
+  background-color: rgba(0, 0, 0, 1);
+}
+.footer-column img {
+  width: 228px;
+  height: 27px;
+  margin-bottom: 48px;
+}
+.footer-column {
+    width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-column h5 {
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 16px;
+    align-items: center;
+    text-align: start;
+    margin-bottom: 8px;
+    color: rgba(255, 255, 255, 1);
+}
+.footer-column a {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+    align-items: center;
+    text-align: start;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
