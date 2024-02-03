@@ -28,6 +28,9 @@
 .nav-li a {
   color: rgba(0, 0, 0, 1);
 }
+.burger {
+  display: none;
+}
 .act-btn {
   width: 100px;
   height: 48px;
@@ -123,7 +126,6 @@
   height: 895px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
 }
 .black-section-div {
@@ -183,6 +185,7 @@
   color: rgba(255, 255, 255, 1);
 }
 .cta h2 {
+  width: 600px;
   font-family: Inter;
   font-weight: 900;
   line-height: 48px;
